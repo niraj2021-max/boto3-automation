@@ -106,7 +106,7 @@ Run the tool yourself and save your screenshots with these names (in `screenshot
 | `09-ec2-console.png` | EC2 console: the instance state (stopped / terminated) |
 
 ![Menu](screenshots/connected.png)
-![Create bucket](sxcreenshots/bucket-created.png)
+![Create bucket](screenshots/bucket-created.png)
 ![Upload file](screenshots/upload.png)
 ![Launch instance](screenshots/instance.png)
 ![Stop instance](screenshots/stopping-instance.png)
