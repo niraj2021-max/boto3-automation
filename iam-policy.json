@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Ec2ReadAndLaunch",
+      "Effect": "Allow",
+      "Action": ["ec2:DescribeInstances", "ec2:DescribeImages", "ec2:RunInstances", "ec2:CreateTags"],
+      "Resource": "*"
+    },
+    {
+      "Sid": "Ec2StopTerminateOnlyDemoInstances",
+      "Effect": "Allow",
+      "Action": ["ec2:StopInstances", "ec2:TerminateInstances"],
+      "Resource": "*",
+      "Condition": { "StringEquals": { "ec2:ResourceTag/Name": "boto3-automation-demo" } }
+    },
+    {
+      "Sid": "S3ListAllBuckets",
+      "Effect": "Allow",
+      "Action": "s3:ListAllMyBuckets",
+      "Resource": "*"
+    },
+    {
+      "Sid": "S3DemoBucketsOnly",
+      "Effect": "Allow",
+      "Action": ["s3:CreateBucket", "s3:PutObject", "s3:ListBucket"],
+      "Resource": ["arn:aws:s3:::boto3-automation-demo-*", "arn:aws:s3:::boto3-automation-demo-*/*"]
+    }
+  ]
+}
