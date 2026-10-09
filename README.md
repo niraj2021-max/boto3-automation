@@ -105,12 +105,12 @@ Run the tool yourself and save your screenshots with these names (in `screenshot
 | `08-s3-console.png` | S3 console: the new bucket with the uploaded file |
 | `09-ec2-console.png` | EC2 console: the instance state (stopped / terminated) |
 
-![Menu](screenshots/01-connected-menu.png)
-![Create bucket](screenshots/02-create-bucket.png)
-![Upload file](screenshots/03-upload-file.png)
-![Launch instance](screenshots/04-launch-instance.png)
-![Stop instance](screenshots/05-stop-instance.png)
-![Terminate instance](screenshots/06-terminate-instance.png)
+![Menu](screenshots/connected.png)
+![Create bucket](sxcreenshots/bucket-created.png)
+![Upload file](screenshots/upload.png)
+![Launch instance](screenshots/instance.png)
+![Stop instance](screenshots/stopping-instance.png)
+![Terminate instance](screenshots/terminate.png)
 ![List resources](screenshots/07-list-resources.png)
 ![S3 console](screenshots/08-s3-console.png)
 ![EC2 console](screenshots/09-ec2-console.png)
