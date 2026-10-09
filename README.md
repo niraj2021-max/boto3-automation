@@ -111,7 +111,7 @@ Run the tool yourself and save your screenshots with these names (in `screenshot
 ![Launch instance](screenshots/instance.png)
 ![Stop instance](screenshots/stopping-instance.png)
 ![Terminate instance](screenshots/terminate.png)
-![List resources](screenshots/07-list-resources.png)
+![List resources](screenshots/list-resources.png)
 ![S3 console](screenshots/08-s3-console.png)
 ![EC2 console](screenshots/09-ec2-console.png)
 
